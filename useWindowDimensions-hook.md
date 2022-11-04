@@ -8,7 +8,9 @@ It **automatically**  updates width and height value when device screen changes.
 ```JS
 const { height, width, scale, fontScale } = useWindowDimensions();
 ```
-useWindowDimensions hook returns an object that includes height, width, scale, fontScale values on it. We can destructure it like on above code snippet.
+useWindowDimensions hook returns an object that includes height, width, scale, fontScale values on it. We can destructure it like code snippet above.
+
+Or we can create an object with using **useWindowDimensions** hook and then we can get the values like 'objectName.width'.
 
 ### Example
 ```JS
